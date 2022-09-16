@@ -3,9 +3,9 @@ resource "aws_instance" "myawsserver" {
   instance_type = "t2.nano"
 
   tags = {
-    Name = "Gagandeep-aws-ec2-instance-Nomura v2"
+    Name = "Hari-aws-ec2-instance-Nomura v2"
     Env = "test"
-    Owner = "Gagandeep"
+    Owner = "Haribabi"
   }
 }
 
